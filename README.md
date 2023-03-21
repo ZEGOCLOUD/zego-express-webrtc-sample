@@ -1,33 +1,26 @@
-# 即构 webrtc-sdk功能示例demo
+# Zego Webrtc SDK Function Example Demo
 
- ## 说明
-- 该仓库为即构科技webrtc的使用示例demo,希望帮助开发者快速上手webrtc-sdk；
-- 每个页面展示sdk一种功能，可根据实际场景自由组合
-- 可Github[在线体验](https://zegodev.github.io/zego-express-webrtc-sample/),码云[在线体验2](https://zegodev.gitee.io/zego-express-webrtc-sample)
-- [API文档](https://doc-zh.zego.im/zh/306.html)
+## Description
+- This repository provides usage examples for Zego Technology's Webrtc SDK, with the aim of helping developers quickly get started with the Webrtc-sdk.
+- Each page showcases one function of the SDK, which can be freely combined according to actual scenarios.
+- [Online Experience on Github](https://zegocloud.github.io/zego-express-webrtc-sample/assistDev/index.html)
+- [API documentation](https://docs.zegocloud.com/article/3555)
 
+## Integration Requirements
+- Zego Developer Account ([Get AppID](https://www.zego.im))
+- Webrtc Compatibility as follows:
+  <img src="https://storage.zego.im/sdk-doc/Pics/Web/ZegoLiveRoom/ZegoLiveRoom-IntegrationGuide/form.png">
+- Only supports SSL Web servers (https)
+> >localhost, 127.0.0.1 are equivalent to https
 
- ## 集成条件
- - 即构开发者账户（[获取appid](https://www.zego.im)）
- - webrtc兼容性如下
-   <img src="https://storage.zego.im/sdk-doc/Pics/Web/ZegoLiveRoom/ZegoLiveRoom-IntegrationGuide/form.png?v=Thu%20Jun%2027%202019%2015:53:03%20GMT+0800%20(GMT+08:00)">
- - 只支持SSL的Web服务器（https）
-> >localhost,127.0.0.1等同于https
+## Quick Setup of Your Own Demo
+- Install dependencies: npm i
+- Modify the code in /src/common.ts to your own configuration
+> appid, server address need to be modified by yourself (please obtain them from the email content when applying for AppID from the console)
+> <img src="https://storage.zego.im/sdk-doc/codeSample.png"/>
+- Start: npm run dev
 
-
- ## 快速搭建自己demo
- - 安装依赖: npm i
- - 修改/src/common.ts中代码为自己的配置
- > appid,server地址 需要自行修改(请从控制台申请AppID时邮件内容里获取)
- >  <img src="http://zego-public.oss-cn-shanghai.aliyuncs.com/sdk-doc/codeSample.png"/>
- - 启动： npm run dev
-
-
-## 注意
-- demo里的sdk为实验版本，请不要用这里的sdk作为生产环境
-
-
- ## [常见问题](https://github.com/zegodev/webrtcDemo-js/issues)
-
+## Note
+- The SDK in the demo is an experimental version, please do not use it as a production environment.
 
 
